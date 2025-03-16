@@ -1,3 +1,4 @@
+import ReactFlowComponent from "./components/ReactFlowComponent";
 import TreeChart from "./components/TreeChart";
 
 
@@ -61,7 +62,8 @@ export default function Home() {
 
   return (
     <div>
-      <TreeChart data={data} />
+      {/*<TreeChart data={data} />*/}
+      <ReactFlowComponent />
     </div>
   );
 }
